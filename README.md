@@ -64,5 +64,117 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Firetiger is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by sequoia-capital) and added to the network as a stub for full-pipeline profiling.
-- https://firetiger.com
+Firetiger is a venture‑backed startup listed in the API Evangelist harvest backlog, backed by Sequoia Capital. While its primary website (firetiger.com) is currently inactive, the company provides extensive documentation at docs.firetiger.com, covering agents, services, integrations, and telemetry. No public API specifications were discovered during this profiling pass.
+
+**Areas:** Company · Startup · Venture-Backed · Technology · API
+
+## Firetiger on APIs.io
+
+Everything profiled for Firetiger is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/firetiger/](https://apis.io/providers/firetiger/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Firetiger API](https://apis.io/apis/firetiger/firetiger-api/) — Firetiger API as documented publicly: 199 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [PostFiretigerBillingV1BillingserviceGetbillingusageResponse](https://apis.io/schemas/firetiger/firetiger-post-firetiger-billing-v1-billingservice-getbillingusage-response/)
+- [PostFiretigerInvestigationsV1InvestigationserviceCreateinves](https://apis.io/schemas/firetiger/firetiger-post-firetiger-investigations-v1-investigationservice-createinves/)
+- [PostFiretigerNxagentV2AgentserviceCreatesessionRequest](https://apis.io/schemas/firetiger/firetiger-post-firetiger-nxagent-v2-agentservice-createsession-request/)
+- [PostFiretigerNxagentV2AgentserviceGetartifactRequest](https://apis.io/schemas/firetiger/firetiger-post-firetiger-nxagent-v2-agentservice-getartifact-request/)
+- [PostFiretigerNxagentV2AgentserviceWriteRequest](https://apis.io/schemas/firetiger/firetiger-post-firetiger-nxagent-v2-agentservice-write-request/)
+- [PostV2IncidentsRequest](https://apis.io/schemas/firetiger/firetiger-post-v2-incidents-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Firetiger Context](https://apis.io/jsonld/firetiger/firetiger-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Firetiger API Rules](https://apis.io/rules/firetiger/firetiger-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Firetiger Authentication](https://apis.io/security/firetiger/firetiger-authentication/)
+- [Firetiger Domain Security](https://apis.io/security/firetiger/firetiger-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Firetiger Scopes](https://apis.io/scopes/firetiger/firetiger-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://docs.firetiger.com)
+- [Documentation](https://docs.firetiger.com/)
+- [Getting started](https://docs.firetiger.com/guides/)
+
+## API Evangelist rating
+
+**Kin Score 34.9** — thin · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 45.6 |
+| Contract governance | 70.9 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 0.0 |
+
+**Agent readiness 21.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 26.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/firetiger/](https://apis.io/providers/firetiger/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Firetiger: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/firetiger/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
